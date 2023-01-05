@@ -30,9 +30,8 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
-        run: |
-        python first.py
-        python second.py
+        run: python first.py
+        
 
       # - name: Run a one-line script
         # run: python second.py
