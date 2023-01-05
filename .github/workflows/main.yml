@@ -31,8 +31,8 @@ job:
       # Runs a single command using the runners shell
       - name: Run a one-line script
         run: |
-        python first.py
-        python second.py
+          python first.py
+          python second.py
 
       # - name: Run a one-line script
         # run: python second.py
